@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css';
+import './elements.css';
 
 export default function Link(props) {
     return (

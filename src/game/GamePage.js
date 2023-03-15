@@ -1,26 +1,22 @@
 import React from "react";
-import Link from "../elements/Link.js";
 import Heading from "../elements/Heading.js";
-import Input from "../elements/Input.js";
 import GoButton from "../elements/GoButton.js";
+import Lyric from "../elements/Lyric.js";
 import Timer from "../elements/Timer.js";
 
-export default function LandingPage() {
+export default function GamePage() {
     return (
         <>
         <div>
             <Heading>Lyrical</Heading>
             <div>
-                <Link href="http://google.com">Settings</Link>
+                <Timer></Timer>
             </div>
             <div>
-                <Input>Player name</Input>
+                <Lyric></Lyric>
             </div>
             <div>
                 <GoButton>Got it</GoButton>
-            </div>
-            <div>
-                <Timer></Timer>
             </div>
 
         </div>
